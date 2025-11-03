@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="TechNova Works — portfolio of engineering, design & creative technology projects." />
+  <meta name="author" content="Behruz" />
+  <title>TechNova Works — Portfolio</title>
+  <link rel="icon" href="images/favicon.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <canvas id="bg"></canvas>
+
+  <header class="header glass">
+    <div class="logo">
+      <h1>TechNova Works</h1>
+      <p>Innovation. Design. Engineering.</p>
+    </div>
+    <nav class="nav" id="navMenu">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="menu-toggle" id="menuToggle">☰</button>
+  </header>
+
+  <section id="home" class="hero glass">
+    <div class="hero-content">
+      <h2 class="glow reveal">Crafting Ideas into Circuits & Code</h2>
+      <p class="lead reveal">I explore everything from embedded systems and PCBs to graphic design and creative tech — where art meets engineering.</p>
+      <div class="hero-buttons reveal">
+        <a href="#projects" class="btn">Explore Projects</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section reveal">
+    <h2 class="section-title">About Me</h2>
+    <p class="section-desc">
+      I'm an independent creator passionate about technology in all its forms. From electronic circuits to 3D design and software development, I combine creativity and logic to bring projects to life. This portfolio showcases my journey through innovation and experimentation.
+    </p>
+  </section>
+
+  <section id="skills" class="section glass reveal">
+    <h2 class="section-title">Skills & Hobbies</h2>
+    <div class="skills-grid">
+      <div class="skill-card">⚡ Electrical Engineering</div>
+      <div class="skill-card">🤖 Embedded Systems</div>
+      <div class="skill-card">💻 Programming & Software</div>
+      <div class="skill-card">🎨 Graphic Design</div>
+      <div class="skill-card">🧩 3D Modeling & Printing</div>
+      <div class="skill-card">🔧 DIY & Prototyping</div>
+    </div>
+  </section>
+
+  <section id="projects" class="section reveal">
+    <h2 class="section-title">Featured Projects</h2>
+    <div class="projects-grid">
+      <article class="project-card">
+        <h3>Smart Lighting Controller</h3>
+        <p>IoT lighting system with ESP32 and mobile app integration.</p>
+      </article>
+      <article class="project-card">
+        <h3>3D Printed Drone Frame</h3>
+        <p>Lightweight and durable frame for quadcopter prototypes.</p>
+      </article>
+      <article class="project-card">
+        <h3>Portfolio Website Design</h3>
+        <p>Fully responsive portfolio built with HTML, CSS, and JS.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="contact" class="section glass reveal">
+    <h2 class="section-title">Let’s Work Together</h2>
+    <p class="section-desc">Have an idea or want to collaborate? Get in touch!</p>
+    <div class="contact-links">
+      <a href="#" class="btn">GitHub</a>
+      <a href="#" class="btn">YouTube</a>
+      <a href="#" class="btn">Instagram</a>
+      <a href="mailto:example@mail.com" class="btn btn-outline">Email Me</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> TechNova Works — Created by Behruz</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
