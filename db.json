@@ -1,0 +1,34 @@
+{
+  "projects": [
+    {
+      "id": "p1",
+      "title": "Smart Lighting Controller",
+      "description": "IoT lighting system with ESP32 and mobile app integration.",
+      "url": "",
+      "tags": [
+        "iot",
+        "esp32"
+      ]
+    },
+    {
+      "id": "p2",
+      "title": "3D Printed Drone Frame",
+      "description": "Lightweight and durable frame for quadcopter prototypes.",
+      "url": "",
+      "tags": [
+        "3d-print",
+        "drone"
+      ]
+    },
+    {
+      "id": "p3",
+      "title": "Portfolio Website Design",
+      "description": "Fully responsive portfolio built with HTML, CSS, and JS.",
+      "url": "",
+      "tags": [
+        "web"
+      ]
+    }
+  ],
+  "contacts": []
+}
